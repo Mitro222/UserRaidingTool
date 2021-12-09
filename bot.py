@@ -7,7 +7,7 @@ a = 1
 
 
 @client.on.chat_message()
-async def raid(event: Message);
+async def raid(event: Message):
     while a > 0:
         await event.answer(msg)
 
